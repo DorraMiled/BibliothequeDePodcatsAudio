@@ -112,8 +112,8 @@ BibliothequePodcasts/
 ### 1. Cloner le projet
 
 ```bash
-git clone <url-du-repo>
-cd BibliothequePodcasts
+git clone https://github.com/DorraMiled/BibliothequeDePodcatsAudio.git
+cd BibliothequeDePodcatsAudio
 ```
 
 ### 2. Configuration de la Base de Données
