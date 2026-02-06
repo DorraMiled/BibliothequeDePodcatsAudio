@@ -11,7 +11,7 @@ function App() {
         {/* Navigation principale */}
         <nav className="navbar">
           <div className="navbar-brand">
-            <h1>📻 Bibliothèque Podcasts</h1>
+            <h1> Bibliothèque Podcasts</h1>
           </div>
           
           <div className="navbar-menu">
