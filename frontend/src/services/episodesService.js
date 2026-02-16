@@ -76,21 +76,6 @@ const episodeService = {
   },
 
   /**
-   * Met à jour un épisode existant
-   * @param {string} episodeId - ID de l'épisode à modifier
-   * @param {Object} episodeData - Nouvelles données de l'épisode
-   * @returns {Promise} Épisode mis à jour
-   */
-  updateEpisode: async (episodeId, episodeData) => {
-    try {
-      const response = await api.put(`/episodes/${episodeId}`, episodeData);
-      return response.data;
-    } catch (error) {
-      throw error;
-    }
-  },
-
-  /**
    * Supprime un épisode
    * @param {string} episodeId - ID de l'épisode à supprimer
    * @returns {Promise} Confirmation de suppression

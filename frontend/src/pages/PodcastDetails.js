@@ -359,7 +359,7 @@ const PodcastDetail = () => {
           
           <form onSubmit={handleSubmitPodcast}>
             <div className="form-group">
-              <label htmlFor="podcast-title">Titre du podcast *</label>
+              <label htmlFor="podcast-title">Titre du podcast </label>
               <input
                 type="text"
                 id="podcast-title"

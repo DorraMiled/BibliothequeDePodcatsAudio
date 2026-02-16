@@ -32,20 +32,6 @@ const podcastService = {
   },
 
   /**
-   * Récupère un podcast spécifique par son ID
-   * @param {string} id - ID du podcast
-   * @returns {Promise} Détails du podcast
-   */
-  getPodcastById: async (id) => {
-    try {
-      const response = await api.get(`/podcasts/${id}`);
-      return response.data;
-    } catch (error) {
-      throw error;
-    }
-  },
-
-  /**
    * Crée un nouveau podcast dans la bibliothèque
    * @param {FormData} formData - Données du podcast (titre et image)
    * @returns {Promise} Podcast créé

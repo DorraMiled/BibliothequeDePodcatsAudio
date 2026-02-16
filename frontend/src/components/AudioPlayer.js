@@ -25,8 +25,8 @@ const AudioPlayer = ({ episode }) => {
   useEffect(() => {
     if (audioRef.current && episode) {
       audioRef.current.load();
-      setIsPlaying(false);
-      setCurrentTime(0);
+      setIsPlaying(false); //met lecture en pause 
+      setCurrentTime(0); //remet ble temps a zero
     }
   }, [episode]);
 

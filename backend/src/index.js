@@ -8,13 +8,12 @@ import path from 'path';
 import pool from "./config/db.js";
 dotenv.config();
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const app = express();
 
 app.use(cors());
-app.use(express.json());
 
 // Middleware pour parser le JSON
 app.use(express.json());

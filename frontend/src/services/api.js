@@ -2,7 +2,7 @@ import axios from 'axios';
 
 /**
  * Instance axios configurée pour communiquer avec l'API backend
- * Base URL: /api (redirigé vers le backend via le proxy Vite)
+ * Base URL: /api (redirigé vers le backend via le proxy )
  */
 const api = axios.create({
   baseURL: '/api',

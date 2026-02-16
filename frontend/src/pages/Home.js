@@ -11,8 +11,7 @@ const Home = () => {
     const [podcasts, setPodcasts] = useState([]);
     const [loading, setLoading] = useState(false);//gerer chaargement 
     const [error, setError] = useState(null);//gerer les erreurs
-
-  const [showPodcastForm, setShowPodcastForm] = useState(false);
+    const [showPodcastForm, setShowPodcastForm] = useState(false);
     const [showEpisodeForm, setShowEpisodeForm] = useState(false);
 
     useEffect(() => { loadPodcasts() },[]);//charger les podcasts au chargement du composant
